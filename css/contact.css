@@ -1,0 +1,17 @@
+.text_info_right{
+	width: 40%;
+}
+.text_info_left{
+	width: 40%;
+}
+.mape_block{
+	display: flex;
+	justify-content: center;
+}
+.mape{
+	width: 60%;
+}
+.text_info_right{
+	box-sizing: border-box;
+	word-break: break-all;
+}

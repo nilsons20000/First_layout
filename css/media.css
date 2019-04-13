@@ -1,0 +1,55 @@
+@media screen and (max-width: 1200px) {
+	header img{
+		width: 100%;
+	}
+	footer{
+		width: 98.1%;
+	}
+	.menu{
+		width: auto;
+	}
+
+	.menu_container  {
+		flex-direction: column;
+	}
+	.menu_container .menu ul {
+		flex-direction: column;
+		align-self: center;
+		text-align: center;
+	}
+	.text{
+		width: 98.3%;
+	}
+	.text_info{
+		float: none;
+	}
+	#image{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+	#image img{
+		width: 50%;
+		float: none;
+	}
+	.text_info_right, .text_info_left{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.image_center{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.image_center img{
+		width: 50%;
+		margin: 0 auto;
+	}
+	.mape{
+		width: 100%;
+	}
+	.text_info_left{
+		margin-left: 0;
+	}
+}
