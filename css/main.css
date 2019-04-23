@@ -42,10 +42,7 @@ header img{
 	display: flex;
 	justify-content: center;
 }
-.menu_container{
-	display: flex;
-	justify-content: center;
-}
+
 .menu{
 	width: 97%;
 	height: auto;
@@ -107,8 +104,11 @@ header img{
 }
 .text_info_right{
 	float: right;
-	width: 50%;
+	width: 100%;
 	padding:2px;
+}
+#text_info_right{
+	float: right;
 }
 .left{
 	margin-top:100px;
